@@ -9,7 +9,6 @@ import urllib.parse
 import urllib.request
 
 API_BASEURL = "http://localhost:80"
-# API_BASEURL = "http://79.143.29.57:80"
 
 ROOT_ID = "069cb8d7-bbdd-47d3-ad8f-82ef4c269df1"
 

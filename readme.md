@@ -1,10 +1,11 @@
 Запуск сервиса:
 
-docker-compose up --build
+docker-compose up --build -d
 
 Генерация и применение миграций:
 
 docker exec -it app bash
+
 cd app && alembic revision --autogenerate -m "First Migration" && alembic upgrade head
 
 
